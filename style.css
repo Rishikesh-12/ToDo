@@ -26,35 +26,33 @@ body {
 }
 
 #row2{
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 79.99%;
-    opacity: 0.5;
 
 }
 
 #row3{
-    background-color: blue;
     height: 10%;
 }
 
 #leftCol{
-    background-color: rgb(150, 150, 160);
-    width: 30%;
+    background-color: rgba(108, 120, 129, 0.308);
+    width: 32%;
     float: left;
     height: 100%;
 }
 
 #middleCol{
-    background-color: rgb(48, 48, 155);
-    width: 30%;
+    background-color: rgba(199, 151, 109, 0.308);
+    width: 32%;
     margin: 0 auto;
     height: 100%;
     
 }
 
 #rightCol{
-    background-color: rgb(38, 38, 58);
-    width: 30%;
+    background-color: rgba(95, 170, 105, 0.308);
+    width: 32%;
     float: right;
     height: 100%;
 }
