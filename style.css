@@ -23,6 +23,7 @@ body {
 
 #row1{
     height: 10%;
+    padding: 10px;    
 }
 
 #row2{
@@ -55,4 +56,18 @@ body {
     width: 32%;
     float: right;
     height: 100%;
+}
+
+#userGreeting{
+    color: white;
+    font-size: 55px;    
+    float: left;
+}
+
+#clock{
+    text-align: center;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    float: right;
+    padding: 12px;
 }

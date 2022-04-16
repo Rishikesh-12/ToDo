@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <head>
     <title>Progress Board</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="exp.scss">
 </head>
 <body>
-    <div class="row1" id="row1">Welcome user !</div>
+    <div class="row1" id="row1">
+        <div class="userGreeting" id="userGreeting">Welcome user !</div>
+        <div class="clock" id="clock">
+            <p class="date" id="date">Date</p>
+            <p class="time" id="time">Time</p>
+        </div>
+    </div>
     <div class="row2" id="row2">
         <div class="rightCol" id="rightCol">Done</div>
         <div class="leftCol" id="leftCol">To-Do</div>
         <div class="middleCol" id="middleCol">In Progress</div>
     </div>
     <div class="row3" id="row3">Row 3</div>
+    <script src="clock.js"></script>
 </body>
